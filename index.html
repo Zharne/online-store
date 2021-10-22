@@ -1,0 +1,596 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="price.css">
+</head>
+
+<body>
+    <!--navbar-->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-default navbar-fixed-top">      
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="bi bi-book-half"></i> BOOK-STORE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#discounts">Discounts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     </nav>
+
+     <div class="carousel-container m-1">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/images/charl-folscher-DnUIfLUREwc-unsplash.jpg" class="d-block w-100" alt="read 1">
+              <div class="carousel-caption d-none d-md-block display-6 text-white">
+              <h5 class="display-4 fw-bold text-black">THE BOOK STORE.</h5>
+              <p>Refresh your mind.</p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+              <img src="/Images/dia-aram-FKxmGgh_RXM-unsplash.jpg" class="d-block w-100" alt="read 2">
+              <div class="carousel-caption d-none d-md-block display-6 text-black">
+              <h5 class="display-4 fw-bold text-black">THE BOOK STORE.</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="/Images/charles-deluvio-vfq0y6Zvex0-unsplash.jpg" class="d-block w-100" alt="read 3">
+              <div class="carousel-caption d-none d-md-block display-6 text-black">
+              <h5 class="display-4 fw-bold text-black">THE BOOK STORE.</h5>
+              <p></p>
+              </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+    
+      <!-- main image & intro text -->
+    <section id="intro">
+
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-5 text-center text-md-start">
+                  <h1>
+                      <div class="display-2">Amazing Reading</div>
+                      <div class="display-5 text-muted">For amazing reading</div>
+                  </h1>
+                  <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                  <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+              </div>
+              <div class="col-md-5 text-center d-none d-md-block">
+                  <img class="img-fluid" src="images/good-data.jpeg" alt="">
+              </div>
+          </div>
+      </div>
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2">Amazing Reading</div>
+                    <div class="display-5 text-muted">For amazing reading</div>
+                </h1>
+                <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+                <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <img class="img-fluid" src="images/dia-aram-FKxmGgh_RXM-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+              <h1>
+                  <div class="display-2">Amazing Reading</div>
+                  <div class="display-5 text-muted">For amazing reading</div>
+              </h1>
+              <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam adipisci odio nostrum, sequi, dolorem non facere vel inventore ipsa modi quaerat ab nesciunt quo iure provident temporibus reprehenderit eos!</p>
+              <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+              <img class="img-fluid" src="images/zero-to-one.jpg">
+          </div>
+      </div>
+  </div>
+
+
+    </section>    
+
+    <!-- main image & intro text -->
+    <div class="m-3 p-3 rounded-pill border border-5 m-3 p-3 shadow-lg text-center fst-italic fw-boldervdisplay-5">DISCOUNTS</div><br>
+
+    <section id="discounts">
+            <!--Cards-->
+                  <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/images2.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Blue ocean strategy</h5>
+                          <p class="card-text">Renée Mauborgne</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#exampleModal1">Go somewhere</a>
+                        </div>
+                    </div>
+                      </div>
+
+                      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h1>The Blue Ocean Strategy.</h1>
+                              Recognized as one of the most iconic and impactful strategy books ever written, Blue Ocean Strategy argues that cutthroat competition results in nothing but a bloody red ocean of rivals fighting over a shrinking profit pool. It presents a systematic approach to making the competition irrelevant and outlines principles and tools any organization can use to create and capture their own blue oceans.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+                      <div class="col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="images/titans.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tools of titans</h5>
+                          <p class="card-text">Tim Ferriss</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#exampleModal2">Go somewhere</a>
+                        </div>
+                      </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <h1>Title</h1>
+                                Tim Ferriss shares the habits and beliefs of 101 people at the top of their game, including tech investors like Chris Sacca and Peter Thiel, entrepreneurs like LinkedIn’s Reid Hoffman and Evernote’s Phil Libin, superhuman athletes like Amelia Boone and Wim Hof, media figures like Edward Norton and Whitney Cummings, and more.
+                                These are the principles that successful people use to achieve audacious goals, improve themselves, and be happier. The premise: if you can apply the lessons from this book, you can be more effective.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="images/img.jpeg" class="card-img-top" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Business adventures</h5>
+                                <p class="card-text">John Brooks</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#exampleModal3">Go somewhere</a>
+                              </div>
+                          </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <h1>Business advice</h1>
+                                    This book offers time-tested lessons from the world's largest corporations, many of which are still around and flourishing today. This summary extracts and outlines the richest case studies from the book. Uncover the drivers of demise through the tale of Ford and its infamous “Edsel” flop. Then, hear how Xerox leveraged both proprietary technology and civic engagement to become one of the most successful businesses of the 1960s. 
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                      </div>
+                </div>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/kamala.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">The truths of an American journey we hold.</h5>
+                          <p class="card-text">Kamala Harris</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#exampleModal4">Go somewhere</a>
+                        </div>
+                    </div>
+                      </div>
+                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h1>Now the Vice President of the USA,Kamala Harris.</h1>
+                              In her memoir, Kamala Harris details her life as the daughter of immigrants, tracing her rise to San Francisco district attorney, through her time as California Attorney General, her landslide victory in the 2016 United States Senate election in California, and her run-ins with the Trump administration.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 mb-4">
+                        <div class="card" style="width: 18rem;">
+                        <img src="images/buffet.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Buffett the biography</h5>
+                          <p class="card-text">Roger Lowenstein</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">Go somewhere</a>
+                        </div>
+                      </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <h1>The value investor, Warren Buffett.</h1>
+                                Starting from scratch, simply by picking stocks and companies for investment, Warren Buffett amassed one of the epochal fortunes of the twentieth century—an astounding net worth of $10 billion, and counting. His awesome investment record has made him a cult figure popularly known for his seeming contradictions: a billionaire who has a modest lifestyle, a phenomenally successful investor who eschews the revolving-door trading of modern Wall Street, a brilliant dealmaker who cultivates a homespun aura.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-lg-4 mb-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="images/oprah.jpg" class="card-img-top" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Oprah Winfrey</h5>
+                                <p class="card-text">Helen S. Garson</p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">Go somewhere</a>
+                              </div>
+                          </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <h1>Oprah</h1>
+                                    The name and the face of Oprah Winfrey are instantly recognizable to just about every person in the United States. To millions of people around the world, Oprah is the embodiment of American spirit and entrepreneurial success; hers is a rags-to-riches story come to life. While there is a near continual barrage of information in the media about this larger-than-life woman, this biography takes readers past all the hype and hyperbole and presents a candid, balanced portrait of the flesh-and-blood woman herself. This well- researched personal profile presents a realistic yet intimate portrait of Oprah that neither canonizes nor demonizes her.                         
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet sapien vel sapien tempus placerat ut eu lacus. Nunc rutrum purus tincidunt lorem finibus, id malesuada erat tempus. Phasellus efficitur sit amet ligula sit amet vestibulum. Vestibulum vel feugiat odio, at sodales orci. Pellentesque eget turpis congue, malesuada ipsum in, aliquam nibh. Morbi convallis diam mauris, sit amet hendrerit purus ornare id. Aenean felis lorem, aliquet vel quam sagittis, vulputate mattis augue. Pellentesque eget placerat odio. Suspendisse lectus nisl, vehicula finibus mi eu, gravida pharetra est. Etiam congue nulla sed faucibus maximus. Cras lectus lacus, tristique quis felis ornare, finibus scelerisque diam. Duis sem mi, consectetur sed leo nec, pellentesque dapibus augue. Quisque rutrum in libero non porta.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- PRICING -->
+    <section id="pricing" class="bg-light mt-5">
+      <div class="container-fulid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="price-table">
+                        <div class="price-head">
+                            <h4>Basic</h4>
+                            <h2>15$ <span>month</span></h2>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li>1 GB Ram</li>
+                                <li>30 GB Hard</li>
+                                <li>15 mail Account</li>
+                                <li>Life time support</li>
+                                <li>Minner Functionality </li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a href="#">Buy Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="price-table">
+                        <div class="price-head">
+                            <h4>Adnance</h4>
+                            <h2>25$ <span>month</span></h2>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li>3 GB Ram</li>
+                                <li>40 GB Hard</li>
+                                <li>20 mail Account</li>
+                                <li>Life time support</li>
+                                <li>Minner Functionality </li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a href="#">Buy Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="price-table">
+                        <div class="price-head">
+                            <h4>Premium</h4>
+                            <h2>50$ <span>month</span></h2>
+                        </div>
+
+                        <div class="price-content">
+                            <ul>
+                                <li>5 GB Ram</li>
+                                <li>100 GB Hard</li>
+                                <li>25 mail Account</li>
+                                <li>Life time support</li>
+                                <li>Minner Functionality </li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a href="#">Buy Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+  </section>
+        <!-- Reviews -->
+  <div class="m-3 p-3 rounded-pill border border-5 m-3 p-3 shadow-lg text-center fst-italic fw-boldervdisplay-5">REVIEWS</div><br>
+ 
+      <section id="reviews" class="bg-light">
+
+              <div class="container-lg">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Martin Luther king Jr, the biography.
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                      <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                      <h5 class="mb-1">A must read for everyone looking to get more insight on the fight for justice by African Americans.</h5>
+                      <p class="mb-1">"I have a dream.........", introduced an already famous Martin Luther King Jr to the world and the world remembers him for these words apart from the remarkable work that he did as a civil rights activist. The biography brings forth the travails of the African-Americans even after 200 years of American independence. The African-Americans were still not "free". The book provides some more insights into the life of his remarkable persona and those that influenced his thought process. Mahatma Gandhi's approach to non-violent resolution of issues and redressal of grievances seems to have had a great impact on him and this comes out quite clearly in this biography. King's life also demonstrates that the approach advocated by the Mahatma could work in any environment. It is ironical that Ambedkar who fought a similar battle in India had serious differences with Gandhi</p>
+                      <small>Review by Anil Swarup</small>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      To kill a mockingbird.
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                    <div class="accordion-body">
+                      <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                      <h5 class="mb-1">A classic of modern American literature</h5>
+                      <p class="mb-1">The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it. "To Kill A Mockingbird" became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.
+
+                      Compassionate, dramatic, and deeply moving, "To Kill A Mockingbird" takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.</p>
+                      <small>Review by Sameul Edwards</small>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      The diary of a young Girl by Anne Frank.
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample3">
+                    <div class="accordion-body">
+                      <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                      <h5 class="mb-1">She gives the reader a glimpse into the cruel world of Anti-semitism in Nazi Germany.</h5>
+                      <p class="mb-1">
+                        <p>Discovered in the attic in which she spent the last years of her life, Anne Frank’s remarkable diary has become a world classic—a powerful reminder of the horrors of war and an eloquent testament to the human spirit.</p><small>Reviewed by Jasher Drake</small>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="box">
+        <h2>Contact Details</h2>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" name="" required="">
+            <label for="">Name & Surname</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" name="" required="">
+            <label for="">Phone number</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" name="" required="">
+            <label for="">Email Address</label>
+          </div>
+          <input type="submit" name="" value="Submit">
+        </form>
+      </div>
+
+    </section>
+
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+        <div class="row">
+          
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget subscribe no-box">
+        <h5 class="widget-title">Online Shopping<span></span></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit purus, semper eu sagittis non, euismod nec arcu. Etiam mattis tellus quis tellus luctus fermentum.</p>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Quick Links<span></span></h5>
+        <ul class="thumbnail-widget">
+        <li>
+        <div class="thumb-content"><a href="#home">Home</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#discounts">Discounts</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#pricing">Pricing</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#reviews">Reviews</a></div> 
+        </li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Get Started<span></span></h5>
+        <p>Get access to your full Training and Marketing Suite.</p>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        
+        <!-- <div class="widget no-box">
+        <h5 class="widget-title">Contact Us<span></span></h5>
+        </ul>
+        </div> -->
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="footer-copyright">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12 text-center">
+        <p>Copyright Company Name © 2021. All rights reserved.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>

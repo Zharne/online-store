@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:500');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f8f8f8;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+.price-table {
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 11px 1px #727c8a36;
+    border-radius: 3px;
+}
+
+.col-sm-4:nth-child(n) .price-table:hover {
+   
+    transition: .2s ease .2s;
+}
+
+.price-table .price-head {
+    padding: 50px;
+    background: linear-gradient(45deg, #2188f3, #5121f3);
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 25%;
+}
+
+    .price-table .price-head h4 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .price-table .price-head h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 34px;
+        color: #fff;
+    }
+
+.price-content {
+    position: relative;
+}
+
+    .price-content ul {
+        position: relative;
+        padding: 20px 0px;
+    }
+
+        .price-content ul li {
+            list-style: none;
+            font-size: 16px;
+            padding: 10px 0;
+            color: #777;
+            cursor: pointer;
+            border-left: 7px solid transparent;
+            border-left: 7px solid transparent;
+            transition: .3s;
+            font-weight:400;
+        }
+
+            .price-content ul li:hover {
+                border-left: 5px solid #2188f3;
+                border-left: 5px solid #2188f3;
+            }
+
+.price-button {
+    padding: 0 0 30px;
+}
+
+    .price-button a {
+        padding: 10px 40px;
+        background: linear-gradient(45deg, #2188f3, #5121f3);
+        color: #fff;
+        border-radius: 3px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
